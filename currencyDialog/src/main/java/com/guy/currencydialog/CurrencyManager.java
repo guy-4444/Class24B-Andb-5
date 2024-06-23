@@ -58,7 +58,7 @@ public class CurrencyManager {
         String[] lines = new String[CURRENCIES.length];
         for (int i = 0; i < CURRENCIES.length; i++) {
             Currency c = CURRENCIES[i];
-            lines[i] = c.name + "(" + c.symbol + ")";
+            lines[i] = c.name + " (" + c.symbol + ")";
         }
 
         builder.setItems(lines, new DialogInterface.OnClickListener() {
